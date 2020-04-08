@@ -209,7 +209,7 @@ div.menu-bar li:hover > ul {
   cursor: pointer;
 }
 .button:hover {
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
 }
 .main-content__text__buttons__left {
   background-color: #3d3d3d;
@@ -233,6 +233,9 @@ div.menu-bar li:hover > ul {
   height: 20px;
   color: #ffdb00;
   margin-right: 5px;
+}
+.main-content__text__link a:hover {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
 }
 /* footer*********************************** */
 .footer__logo {
